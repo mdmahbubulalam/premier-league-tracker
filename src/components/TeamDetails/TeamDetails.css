@@ -1,0 +1,16 @@
+.team-logo{
+    height: 150px;
+}
+
+.banner-image{
+    height :400px;
+    width: 100%;
+    position: absolute;
+    opacity: 0.5; 
+}
+
+.logo-position{
+    position: relative;
+    margin-bottom: 250px;
+    top:120px;
+}
