@@ -9,7 +9,7 @@ const Home = () => {
         fetch(url)
         .then(res => res.json())
         .then(data => setTeams(data.teams))
-    })
+    },[])
     
     const handleTeamDetails = (teamId) => {
         const url = `/details/${teamId}`;
